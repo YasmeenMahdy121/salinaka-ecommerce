@@ -4,7 +4,9 @@ let productContainer = document.querySelector("#shop .products")
 showProducts()
 
 async function showProducts(){
-    let products = await (await fetch('https://salinaka-e-commerce-default-rtdb.firebaseio.com/products.json')).json()
+    let data = await fetch("js/products.json")
+    let result = await data.json()
+    let products = result.products
     document.querySelector('.show-more-products').setAttribute('style', 'display: flex !important;')
     productContainer.innerHTML = ''
     for(var i=0; i<products.length;i++){

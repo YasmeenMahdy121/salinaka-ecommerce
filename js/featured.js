@@ -3,9 +3,9 @@ import {currentUser, currentUserBasket, navbarBasketCounter} from './navBar.js'
 
 let products = []
 async function GetProducts() {
-    let data = await fetch("https://salinaka-e-commerce-default-rtdb.firebaseio.com/products.json")
+    let data = await fetch("js/products.json")
     let result = await data.json()
-    products = result
+    products = result.products
 
     DisplayFeaturedProducts()
 }
