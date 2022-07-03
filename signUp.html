@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tajawal" media="all">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- My Style Sheet -->
+    <link rel="stylesheet" href="css/signUp.css">
+    <link rel="icon" type="image/x-icon" href="/img/favicon.png">
+    
+
+    <title>Sign Up | Salinaka</title>
+</head>
+<body>
+    
+
+
+    <!-- start sign up section -->
+    <section class="d-flex flex-column">
+        <div class="forError" id="forError">
+            <p>Email is already registered</p>
+        </div>
+        <div class="container" id="signUPcontainer">
+            <!-- <div class="content"> -->
+                <div class="signUpSection">
+                    <h1>Sign up to Salinaka</h1>
+                    <div class="row" id="contentROW">
+                        <div class="col-lg-6 col-md-12">
+                            <form action="index.html" id="signUpForm">
+                                <div class="mb-3">
+                                  <label for="fullName" class="form-label" id="fullNameLabel"></label>
+                                  <input type="text" class="form-control" id="fullName" placeholder="John Doee">
+                                  <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label" id="emailLabel"></label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="test@examble.com">
+                                    <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                                  </div>
+                                <div class="mb-1">
+                                  <label for="pass" class="form-label" id="passLabel"></label>
+                                  <input type="password" class="form-control" id="pass" placeholder="Your Password">
+                                </div>
+                                <div class="btnDiv">
+                                    <button type="submit" class="signUpBtn" id="signUpBtn">Sign Up <i class="fa fa-arrow-right"></i></button>
+                                    
+                                </div>                            
+                            </form>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <div class="row">
+                                <div class="col-lg-2 col-md-12">
+                                    <div class="forHr">
+                                        <hr>
+                                        <span>OR</span>
+                                        <hr>
+                                    </div>
+                                </div>
+                                <div class="col-lg-10 col-md-12 buttons">
+                                    <div>
+                                        <button class="btn"><i class="fa fa-facebook"></i> Continue With Facebook</button>
+                                        <button class="btn" id="googleBTN"><i class="fa fa-google"></i> Continue With Google</button>
+                                        <button class="btn"><i class="fa fa-github"></i> Continue With GitHub</button>
+                                    </div>                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <footer>
+                    <div class="footer">
+                        <p>Already have an account?</p>
+                        <a href="signIn.html" class="footerBtn" id="footerBtn">Sign In</a>
+
+                        <!-- <button type="submit" class="footerBtn" id="footerBtn">Sign in</button> -->
+                    </div>
+                </footer>
+        </div>
+    </section>
+    <!-- end sign up section -->
+
+    <!-- <script src="https://apis.google.com/js/platform.js" async defer></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/validation.js"></script>
+    <script src="js/signUp.js" type="module"></script>
+</body>
+</html>

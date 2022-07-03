@@ -1,0 +1,175 @@
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#signUPcontainer {
+  border: 1px solid rgb(211, 211, 211);
+  width: 60%;
+  padding: 0;
+}
+#signUPcontainer .signUpSection {
+  padding: 20px;
+}
+#signUPcontainer .signUpSection h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+#signUPcontainer .signUpSection #contentROW {
+  margin-top: 30px;
+}
+#signUPcontainer .signUpSection .form-control {
+  background-color: transparent;
+  border-radius: 0px;
+}
+#signUPcontainer .signUpSection .signUpBtn {
+  background-color: black;
+  padding: 15px 15px;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+#signUPcontainer .signUpSection .signUpBtn:hover {
+  opacity: 0.8;
+  transition: 1s;
+}
+#signUPcontainer .signUpSection .btnDiv {
+  display: flex;
+  justify-content: end;
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 20px;
+}
+#signUPcontainer .signUpSection label {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(95, 95, 95);
+}
+#signUPcontainer .signUpSection .form-control {
+  border: 1px solid rgb(211, 211, 211);
+}
+#signUPcontainer .signUpSection .form-control:focus {
+  box-shadow: none;
+}
+#signUPcontainer .signUpSection .forHr {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#signUPcontainer .signUpSection .forHr hr {
+  transform: rotate(90deg);
+  padding: 0px 35px 0px 35px;
+  width: 100%;
+}
+#signUPcontainer .signUpSection .forHr span {
+  font-size: 11px;
+  font-weight: bold;
+}
+#signUPcontainer .signUpSection .buttons div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#signUPcontainer .signUpSection .buttons div .btn {
+  width: 100%;
+  border-radius: 0px;
+  box-shadow: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+#signUPcontainer .signUpSection .buttons div .btn:nth-child(1) {
+  background-color: #0078ff;
+  color: white;
+  opacity: 0.8;
+}
+#signUPcontainer .signUpSection .buttons div .btn:nth-child(1):hover {
+  opacity: 1;
+  transition: 1s;
+}
+#signUPcontainer .signUpSection .buttons div .btn:nth-child(2) {
+  background-color: white;
+  border: 1px solid rgb(211, 211, 211);
+  color: #3a3a3a;
+}
+#signUPcontainer .signUpSection .buttons div .btn:nth-child(2):hover {
+  background-color: #e1e1e1;
+  border: 1px solid #e1e1e1;
+}
+#signUPcontainer .signUpSection .buttons div .btn:nth-child(3) {
+  background-color: #24292e;
+  color: white;
+}
+#signUPcontainer .signUpSection .buttons div .btn:nth-child(3):hover {
+  opacity: 0.8;
+  transition: 1s;
+}
+@media (max-width: 992px) {
+  #signUPcontainer .signUpSection .signUpBtn {
+    width: 100%;
+  }
+  #signUPcontainer .signUpSection .forHr {
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+  }
+  #signUPcontainer .signUpSection .forHr hr {
+    transform: rotate(180deg);
+    width: 40%;
+  }
+}
+#signUPcontainer .footer {
+  padding: 12px;
+  width: 100%;
+  background-color: #eeeded;
+  border-top: 1px solid rgb(211, 211, 211);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#signUPcontainer .footer p {
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(95, 95, 95);
+  margin: 0;
+  margin-right: 15px;
+}
+#signUPcontainer .footer .footerBtn {
+  align-content: center;
+  background-color: transparent;
+  padding: 8px 15px;
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(95, 95, 95);
+  border: 1px solid rgb(211, 211, 211);
+}
+#signUPcontainer .footer .footerBtn:hover {
+  background-color: #cfcdcd;
+  border: 1px solid #cfcdcd;
+  transition: 1s;
+}
+
+.forError {
+  border: 1px solid red;
+  width: 60%;
+  margin: 0 auto;
+  padding: 13px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  display: none;
+  background-color: rgba(255, 0, 0, 0.041);
+}
+.forError p {
+  margin: 0;
+  font-size: 13px;
+  font-weight: bold;
+}/*# sourceMappingURL=signUp.css.map */

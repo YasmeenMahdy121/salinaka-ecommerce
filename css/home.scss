@@ -1,0 +1,140 @@
+@import '_navBar.scss';
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner {
+    background-color: rgb(236, 237, 237);
+    width: 100%;
+    display: flex;
+}
+
+#banner_header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    // flex-direction: column;
+     padding: 2rem;
+   //  padding-top: 3rem;
+    flex-basis: 50%;
+ }
+
+ #banner_image{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    // width: 100%;
+    // height: 100%;
+    flex-basis: 50%;
+ }
+
+ #header {
+    width: 100%;
+    display: flex;
+}
+
+#header1 {
+    display: flex;
+    align-items: flex-start;
+    // justify-content: center;
+    // flex-direction: column;
+    //  padding: 2rem;
+    padding-bottom: 1.2rem;
+    flex-basis: 50%;
+ }
+
+ #header2{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    // width: 100%;
+    // height: 100%;
+    flex-basis: 50%;
+ }
+ #head {
+    width: 100%;
+    display: flex;
+}
+
+#head1 {
+    display: flex;
+    align-items: flex-start;
+    // justify-content: center;
+    // flex-direction: column;
+    //  padding: 2rem;
+    padding-bottom: 1.2rem;
+    flex-basis: 50%;
+ }
+
+ #head2{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    // width: 100%;
+    // height: 100%;
+    flex-basis: 50%;
+ }
+.display {
+    margin: 5rem 0;
+}
+.header-text{
+    width: 100%;
+    font-family:Tajawal,Helvetica,Arial,sans-serif;
+}
+.banner_image{
+    width: 100%;
+height:100% ;
+}
+
+.product-display-img {
+    width: 100%;
+    height: auto;
+    background: #f1f1f1;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-display-img img {
+    width: 100%;
+    height: 100%;
+    transform: scale(.9);
+    object-fit: contain;
+    transition: all .5s cubic-bezier(.77, 0, .175, 1);
+}
+
+.is-img-loaded {
+    animation: fadeIn .3s ease;
+    opacity: 1;
+}
+
+.product-display-details {
+    padding: 1.2rem;
+}
+
+.product-card-img:hover {
+    transform: scale(1, 1);
+}
+.footer {
+    background-color: rgb(236, 237, 237);
+    text-align: center;
+    padding: 1.5rem;
+    // margin-top: 2rem;
+    /* width: 100%; */
+}
+.text-black{
+    font-family: Tajawal,Helvetica,Arial,sans-serif;
+}
+@media (max-width: 485px){
+#banner_header,#banner_image {
+    // padding: 5rem 0;
+    flex-basis: 100%;
+}
+}
+@media (max-width: 760px){
+#header1,#head1{
+font-size: 20px;
+}  
+  }
